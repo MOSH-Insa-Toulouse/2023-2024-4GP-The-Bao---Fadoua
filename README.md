@@ -26,13 +26,30 @@ Les livrables de ce projet sont les suivants :
 * Application Android (APK)
 * Banc de Test Dédié au Capteur
 *  Datasheet Complète du Capteur
- # 3. Electronique Analogique:
- # 4. Arduino:
-   ## 4.1 Intégration Arduino
-   ## 4.2 Progamme Arduino
- # 5. KiCad:
- # 6. Application mobile:
- # 7. Mesures et résultats:
+ ## 3. Matériel nécessaire
+* Carte Arduino UNO
+* Amplificateur opérationnel (LTC1050)
+* Module Bluetooth (HC-05)
+* Écran OLED
+* Encodeur rotatif (KY-040)
+* Flex Sensor
+* 2 Résistance de 100kΩ
+* 1 Résistance de 1kΩ
+* 1 Résistance de 10kΩ
+* 1 Potentiomètre digital MCP-41050
+* 2 Condensateurs 100nF
+* 1 Condensateurs 1µF
+
+ # 4. Electronique Analogique:
+
+ ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/8d1cc3c1-9032-4561-9eb3-224b6efbe436)
+
+ # 5. Arduino:
+   ## 5.1 Intégration Arduino
+   ## 5.2 Progamme Arduino
+ # 6. KiCad:
+ # 7. Application mobile:
+ # 8. Mesures et résultats:
 
   
 
