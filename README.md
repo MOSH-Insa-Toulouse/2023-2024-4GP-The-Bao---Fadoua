@@ -27,10 +27,10 @@ Les livrables de ce projet sont les suivants :
 * Banc de Test Dédié au Capteur
 *  Datasheet Complète du Capteur
  ## Electronique Analogique:
- ##Arduino:
- ##KiCad:
- ##Application (.APK):
- ##Banc de test
+ ## Arduino:
+ ## KiCad:
+ ## Application (.APK):
+ ## Banc de test
 
   
 
