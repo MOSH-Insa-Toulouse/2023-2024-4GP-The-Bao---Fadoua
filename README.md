@@ -22,10 +22,15 @@ Les livrables de ce projet sont les suivants :
    -Transmission des données via le module Bluetooth.
    - Affichage des mesures sur l'écran OLED.
    - Utilisation de l'encodeur rotatif pour naviguer dans le menu de l'OLED.
+  
 * Application Android (APK)
 * Banc de Test Dédié au Capteur
 *  Datasheet Complète du Capteur
-
+ ## Electronique Analogique:
+ ##Arduino:
+ ##KiCad:
+ ##Application (.APK):
+ ##Banc de test
 
   
 
