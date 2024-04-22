@@ -49,6 +49,8 @@ Les livrables de ce projet sont les suivants :
    ## 5.2 Progamme Arduino:
    ![image](Images/ARDUINO_DIAGRAMME.png)
  # 6. KiCad:
+   ![image](Images/pcb_schema-1.png)
+   ![image](Images/pcb.png)
  # 7. Application mobile:
  # 8. Mesures et résultats:
 
