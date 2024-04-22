@@ -30,9 +30,9 @@ Les livrables de ce projet sont les suivants :
  # 4. Arduino:
    ## 4.1 Intégration Arduino
    ## 4.2 Progamme Arduino
- # KiCad:
- # Application mobile:
- # Mesures et résultats:
+ # 5. KiCad:
+ # 6. Application mobile:
+ # 7. Mesures et résultats:
 
   
 
