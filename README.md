@@ -42,11 +42,12 @@ Les livrables de ce projet sont les suivants :
 
  # 4. Electronique Analogique:
 
- ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/8d1cc3c1-9032-4561-9eb3-224b6efbe436)
+   ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/8d1cc3c1-9032-4561-9eb3-224b6efbe436)
 
  # 5. Arduino:
    ## 5.1 Intégration Arduino
-   ## 5.2 Progamme Arduino
+   ## 5.2 Progamme Arduino:
+   ![image](Images/ARDUINO_DIAGRAMME.png)
  # 6. KiCad:
  # 7. Application mobile:
  # 8. Mesures et résultats:
