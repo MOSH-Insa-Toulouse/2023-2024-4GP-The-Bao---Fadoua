@@ -51,6 +51,7 @@ La précision de nos mesures est assurée par le choix du LTC1050 pour ses faibl
 Chaque composant du circuit a été soigneusement sélectionné et dimensionné pour optimiser les performances. Des simulations approfondies sous LTSpice ont validé le fonctionnement du circuit avant la conception du PCB final. Des tests sur une breadboard ont confirmé sa fiabilité en conditions réelles, avec des mesures de résistance et de déformation du capteur réalisées pour évaluer sa précision.
 
 La formule utilisée pour calculer la résistance du capteur de contrainte au graphite est la suivante :
+
       𝑅𝑠𝑒𝑛𝑠𝑜𝑟 = (1 +𝑅4/𝑅2) ∗ 𝑅1 ∗ (𝑉𝐶𝐶/𝑉𝐴𝐷𝐶) − 𝑅1 − 𝑅3
       
 Voici le schéma du circuit simulé :
