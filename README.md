@@ -62,6 +62,9 @@ Voici le schéma du circuit simulé sur le logiciel LTSpice :
    ## 5.2 Progamme Arduino:
    ![image](Images/ARDUINO_DIAGRAMME.png)
  # 6. KiCad:
+ ## Réalisation de la Schématique de Shield
+Dans cette étape, nous nous sommes concentrés sur la réalisation et la fabrication du support électronique, à savoir le PCB de notre projet. Nous avons utilisé le logiciel KiCad en nous basant sur le modèle d'une carte Arduino Uno.
+ 
    ![image](Images/pcb_schema-1.png)
    ![image](Images/pcb.png)
  # 7. Application mobile:
