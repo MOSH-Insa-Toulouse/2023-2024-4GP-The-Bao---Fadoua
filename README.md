@@ -36,7 +36,7 @@ Les livrables de ce projet sont les suivants :
 * 2 Résistance de 100kΩ
 * 1 Résistance de 1kΩ
 * 1 Résistance de 10kΩ
-* 1 Potentiomètre digital MCP-41050
+*  Potentiomètre digital MCP-41050
 * 2 Condensateurs 100nF
 * 1 Condensateurs 1µF
 
@@ -65,11 +65,29 @@ Voici le schéma du circuit simulé sur le logiciel LTSpice :
  ## Réalisation de la Schématique de Shield
 Dans cette étape de réalisation de la schématique du shield, notre objectif principal était de concevoir un circuit électronique fonctionnel pour notre projet. Nous avons choisi le logiciel KiCad comme plateforme de conception et nous nous sommes basés sur le modèle d'une carte Arduino Uno pour assurer la compatibilité. Après avoir identifié tous les composants nécessaires pour notre projet, nous avons ensuite procédé à la création de notre propre bibliothèque d'empreintes personnalisées pour les composants manquants. Cette démarche nous a permis d'adapter notre conception à nos besoins spécifiques et d'assurer une intégration optimale des composants dans notre schéma électrique.
 Voici les symboles et empreintes des composants que nous avons créés dans le logiciel KiCad :
-*Module Bluetooth (HC-05)
+
+* Module Bluetooth (HC-05)
+  
 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/cbb68234-92bd-41f8-9e4a-1d07e8b4a700)
 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/dd48190b-4917-4319-abb1-444ab65aed4f)
 
+*Encodeur rotatif (KY-040)
 
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/4832166f-02cf-4636-be2f-c1ae3c5a29bf) ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/3bbc33d8-727d-44ec-8f51-849d83e2887e)
+
+* Écran OLED
+  
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/c331a4a4-5a3d-442f-85a8-1b3416b22a6f)  ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/195c0450-dc9f-439f-af8d-70f592ca0cce)
+
+* Flex Sensor
+  
+ ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/afcf9e46-9d62-4668-85c9-b491dcbb2589)
+ ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/2fd78a1f-2ad6-4f82-97fd-14e0bbca4493)
+
+*  Potentiomètre digital MCP-41050
+
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/1fc731bd-5bca-4139-b541-33c924a765f1)
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/53cdea29-f270-4932-af2d-90bea9187536)
 
 
 
