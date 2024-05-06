@@ -63,7 +63,7 @@ Voici le schéma du circuit simulé sur le logiciel LTSpice :
    ![image](Images/ARDUINO_DIAGRAMME.png)
  # 6. KiCad:
  ## Réalisation de la Schématique de Shield
-Dans cette étape, nous nous sommes concentrés sur la réalisation et la fabrication du support électronique, à savoir le PCB de notre projet. Nous avons utilisé le logiciel KiCad en nous basant sur le modèle d'une carte Arduino Uno.
+Dans cette étape de réalisation de la schématique du shield, notre objectif principal était de concevoir un circuit électronique fonctionnel pour notre projet. Nous avons choisi le logiciel KiCad comme plateforme de conception et nous nous sommes basés sur le modèle d'une carte Arduino Uno pour assurer la compatibilité. Après avoir identifié tous les composants nécessaires pour notre projet, nous avons ensuite procédé à la création de notre propre bibliothèque d'empreintes personnalisées pour les composants manquants. Cette démarche nous a permis d'adapter notre conception à nos besoins spécifiques et d'assurer une intégration optimale des composants dans notre schéma électrique.
  
    ![image](Images/pcb_schema-1.png)
    ![image](Images/pcb.png)
