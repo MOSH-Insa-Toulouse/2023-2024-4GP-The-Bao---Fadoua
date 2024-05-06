@@ -86,8 +86,11 @@ Voici les symboles et empreintes des composants que nous avons créés dans le l
 
 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/f3e0487c-0703-4828-88b8-6ff9dcd19eb8)                 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/53cdea29-f270-4932-af2d-90bea9187536)
 
+
 Après avoir créé les schémas et les empreintes pour chaque composant, nous avons assemblé le schéma électrique complet du shield Arduino en reliant les broches des composants avec celles de la carte Arduino.
+
    ![image](Images/pcb_schema-1.png)
+   
  ## Réalisation de la Schématique du PCB et visualisation 3D
  
  
