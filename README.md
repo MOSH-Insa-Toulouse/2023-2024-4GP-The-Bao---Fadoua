@@ -68,26 +68,23 @@ Voici les symboles et empreintes des composants que nous avons créés dans le l
 
 * Module Bluetooth (HC-05)
   
-![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/cbb68234-92bd-41f8-9e4a-1d07e8b4a700)
-![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/dd48190b-4917-4319-abb1-444ab65aed4f)
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/cbb68234-92bd-41f8-9e4a-1d07e8b4a700)          ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/dd48190b-4917-4319-abb1-444ab65aed4f)
 
 *Encodeur rotatif (KY-040)
 
-![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/4832166f-02cf-4636-be2f-c1ae3c5a29bf) ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/3bbc33d8-727d-44ec-8f51-849d83e2887e)
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/4832166f-02cf-4636-be2f-c1ae3c5a29bf)          ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/3bbc33d8-727d-44ec-8f51-849d83e2887e)
 
 * Écran OLED
   
-![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/c331a4a4-5a3d-442f-85a8-1b3416b22a6f)  ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/195c0450-dc9f-439f-af8d-70f592ca0cce)
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/c331a4a4-5a3d-442f-85a8-1b3416b22a6f)            ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/195c0450-dc9f-439f-af8d-70f592ca0cce)
 
 * Flex Sensor
   
- ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/afcf9e46-9d62-4668-85c9-b491dcbb2589)
- ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/2fd78a1f-2ad6-4f82-97fd-14e0bbca4493)
+ ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/afcf9e46-9d62-4668-85c9-b491dcbb2589)              ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/2fd78a1f-2ad6-4f82-97fd-14e0bbca4493)
 
 *  Potentiomètre digital MCP-41050
 
-![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/1fc731bd-5bca-4139-b541-33c924a765f1)
-![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/53cdea29-f270-4932-af2d-90bea9187536)
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/1fc731bd-5bca-4139-b541-33c924a765f1)               ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/53cdea29-f270-4932-af2d-90bea9187536)
 
 
 
