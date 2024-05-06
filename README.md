@@ -64,6 +64,18 @@ Voici le schéma du circuit simulé sur le logiciel LTSpice :
  # 6. KiCad:
  ## Réalisation de la Schématique de Shield
 Dans cette étape de réalisation de la schématique du shield, notre objectif principal était de concevoir un circuit électronique fonctionnel pour notre projet. Nous avons choisi le logiciel KiCad comme plateforme de conception et nous nous sommes basés sur le modèle d'une carte Arduino Uno pour assurer la compatibilité. Après avoir identifié tous les composants nécessaires pour notre projet, nous avons ensuite procédé à la création de notre propre bibliothèque d'empreintes personnalisées pour les composants manquants. Cette démarche nous a permis d'adapter notre conception à nos besoins spécifiques et d'assurer une intégration optimale des composants dans notre schéma électrique.
+Voici les symboles et empreintes des composants que nous avons créés dans le logiciel KiCad :
+*Module Bluetooth (HC-05)
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/cbb68234-92bd-41f8-9e4a-1d07e8b4a700)
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/dd48190b-4917-4319-abb1-444ab65aed4f)
+
+
+
+
+
+
+
+
  
    ![image](Images/pcb_schema-1.png)
    ![image](Images/pcb.png)
