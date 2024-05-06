@@ -100,18 +100,27 @@ Les paramètres spécifiques suivants ont été respectés :
 * Dimensions du trou pour le support de l'AOP ,l'écran OLED,Flex Sensor,le module Bluetooth et l'encodeur rotatoire,le potentiomètre digital (pad n°1 rectangulaire et les autres pins sont ovales) = 2 mm * 2.5 mm
 * Largeur d'isolation des pistes = 0.8 mm
 * Taille du trou de perçage du via = 0.8 mm
+   ![image](Images/pcb.png)
 
 * visualisation 3D
+  
 Après avoir réalisé le PCB, le téléchargement des modèles de composants sur le site "grabcad.com", qui n'étaient pas fournis par KiCad, s'est avéré très utile. Cela nous a permis d'obtenir un modèle 3D de notre PCB final. Nous avons ainsi pu vérifier que les positions des composants étaient correctes avant de passer à l'étape de l'impression du circuit.
   
   ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/cf1388cb-6d5b-4203-86ee-aea241863773)
+  
+* Fabrication du shield PCB
 
 
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/c12d29cd-80a0-4f57-a8ae-1dae3231f042)
+
+
+
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/5677b8c7-3516-46cd-bb89-4c8dd4cb09b1)
 
 
  
 
-   ![image](Images/pcb.png)
+
  # 7. Application mobile:
  # 8. Mesures et résultats:
 
