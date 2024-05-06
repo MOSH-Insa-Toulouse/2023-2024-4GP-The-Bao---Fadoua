@@ -93,6 +93,17 @@ Après avoir créé les schémas et les empreintes pour chaque composant, nous a
    
  ## Réalisation de la Schématique du PCB et visualisation 3D
 Dans cette étape, nous avons réalisé le routage de notre circuit en intégrant les composants sur le PCB, tout en veillant à limiter les distances entre les composants et leurs pins, conformément aux directives de nos enseignants référents, M. Jérémie Grisolia et Mme Catherine Crouzet. Nous avons respecté des paramètres spécifiques tels que la largeur des pistes, la largeur d'isolation des pistes et les dimensions des trous pour chaque composant, afin d'assurer la conformité de notre conception. Une fois cette phase terminée, nous avons ajouté le plan de masse pour relier les pistes au GND.
+
+Les paramètres spécifiques suivants ont été respectés :
+* Taille du trou de perçage pour l'écran OLED,Flex Sensor,le module Bluetooth et l'encodeur rotatoire, l'AOP et le potentiomètre digital = 1 mm
+* Taille du trou de perçage pour les résistances et les capacités = 0.8 mm
+* Dimensions du trou pour le support de l'AOP (pad n°1 rectangulaire et les autres pins sont ovales) = 2 mm * 2.5 mm
+* Largeur d'isolation des pistes = 0.8 mm
+* Taille du trou de perçage du via = 0.8 mm
+  
+
+
+
  
 
    ![image](Images/pcb.png)
