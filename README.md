@@ -134,7 +134,9 @@ Une fois le PCB fabriqué, nous avons procédé à l'assemblage des composants, 
  # 7. Application mobile:
 
  
- # 8. Mesures et résultats:
+ # 8. Mesures et résultats :
+ 
+ Pour étudier les caractéristiques du capteur, nous avons utilisé un banc d'essai composé de sept demi-cylindres disposés de manière séquentielle, du plus petit au plus grand. Le diamètre de chaque demi-cylindre variait de 2 cm à 5 cm, avec un pas de 0,5 cm. Notre objectif était d'analyser la résistance du capteur en fonction de sa déformation induite en le pliant sur ces cylindres. Le degré de déformation a été calculé à l'aide de la formule : 𝜀 = 𝑒 / (2r), où 𝜀 représente la déformation, e désigne l'épaisseur de la feuille de papier, et r représente le rayon de chaque demi-cylindre. Pour l'épaisseur e, nous avons choisi une valeur de 0,16 mm, correspondant au grammage d'une feuille avec une densité de 140 g/m². Notre expérimentation a consisté à mesurer la déformation des capteurs sous compression et sous tension afin d'évaluer de manière exhaustive leurs caractéristiques de performance.
  
 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/05ebc122-4e2b-404f-82b0-83a9e30fc82c)
 
