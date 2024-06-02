@@ -108,12 +108,14 @@ Après avoir réalisé le PCB, le téléchargement des modèles de composants su
   
   ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/cf1388cb-6d5b-4203-86ee-aea241863773)
   
-* Fabrication du shield PCB
-
+* Fabrication du shield PCB:
+  
+Dans le cadre de notre projet, nous avons fabriqué un circuit imprimé (PCB) au sein des départements de Génie Électrique et Informatique et de Génie Physique de l'INSA Toulouse. La fabrication a commencé par la modélisation du circuit sur le logiciel KICAD, suivie de l'impression de cette modélisation sur du papier calque. Nous avons ensuite réalisé une insolation UV de notre plaquette d’époxy recouverte d’une fine couche de cuivre (environ 60 µm) pendant une dizaine de minutes, en utilisant le calque comme masque. La résine non exposée aux UV a été retirée avec un révélateur, puis la plaquette a été plongée dans un bain de perchlorure de fer pendant environ 7 à 9 minutes. Cette étape a permis de dissoudre le cuivre non protégé et de révéler les pistes du circuit. Enfin, un rinçage à l'acétone a été effectué pour éliminer les dernières traces de résine, nous permettant ainsi d'obtenir notre PCB conforme à la modélisation initiale. Cette réalisation a été possible grâce à l'aide précieuse de Cathy, assurant la qualité et la précision du produit final.
 
 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/c12d29cd-80a0-4f57-a8ae-1dae3231f042)
 
-
+* Assemblage des composantes :
+Une fois le PCB fabriqué, nous avons procédé à l'assemblage des composants, ce qui implique le perçage du PCB et la soudure des éléments électroniques. Conformément aux spécifications de notre projet, deux tailles de trous ont été prévues dans la conception sur KICAD : des trous de 0,8 mm de diamètre pour les composants tels que les amplificateurs opérationnels (AOP) LTC1050, les résistances et les capacités, et des trous de 1 mm de diamètre pour les broches de connexion de la carte Arduino Uno et les headers des différents modules (OLED, Bluetooth, encodeur rotatif...). À l'aide d'une perceuse électrique, nous avons percé le PCB aux emplacements désignés pour insérer les composants. Ensuite, nous avons soudé les composants en place en utilisant de l'étain pour assurer des connexions électriques solides et fiables. Ce processus d'assemblage a permis d'obtenir un shield opérationnel, prêt à être intégré dans notre système.
 
 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/5677b8c7-3516-46cd-bb89-4c8dd4cb09b1)
 
