@@ -53,14 +53,21 @@ Chaque composant du circuit a été soigneusement sélectionné et dimensionné 
 La formule utilisée pour calculer la résistance du capteur de contrainte au graphite est la suivante :
 
       𝑅𝑠𝑒𝑛𝑠𝑜𝑟 = (1 +𝑅4/𝑅2) ∗ 𝑅1 ∗ (𝑉𝐶𝐶/𝑉𝐴𝐷𝐶) − 𝑅1 − 𝑅3
-      
+    
 Voici le schéma du circuit simulé sur le logiciel LTSpice :
    ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/8d1cc3c1-9032-4561-9eb3-224b6efbe436)
+   
+   *  Modélisation du capteur:
+     
+  ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/335cbcf6-7528-4e18-8347-99616e02e7f9)
+
 
  # 5. Arduino:
    ## 5.1 Intégration Arduino
    ## 5.2 Progamme Arduino:
    ![image](Images/ARDUINO_DIAGRAMME.png)
+
+
  # 6. KiCad:
  ## Réalisation de la Schématique de Shield
 Dans cette étape de réalisation de la schématique du shield, notre objectif principal était de concevoir un circuit électronique fonctionnel pour notre projet. Nous avons choisi le logiciel KiCad comme plateforme de conception et nous nous sommes basés sur le modèle d'une carte Arduino Uno pour assurer la compatibilité. Après avoir identifié tous les composants nécessaires pour notre projet, nous avons ensuite procédé à la création de notre propre bibliothèque d'empreintes personnalisées pour les composants manquants. Cette démarche nous a permis d'adapter notre conception à nos besoins spécifiques et d'assurer une intégration optimale des composants dans notre schéma électrique.
