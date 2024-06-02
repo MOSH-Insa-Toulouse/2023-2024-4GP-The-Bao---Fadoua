@@ -132,7 +132,10 @@ Une fois le PCB fabriqué, nous avons procédé à l'assemblage des composants, 
 
 
  # 7. Application mobile:
+
+ 
  # 8. Mesures et résultats:
+ 
 
   
 
