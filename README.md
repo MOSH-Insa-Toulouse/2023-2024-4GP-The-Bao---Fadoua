@@ -136,6 +136,9 @@ Une fois le PCB fabriqué, nous avons procédé à l'assemblage des composants, 
  
  # 8. Mesures et résultats:
  
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/05ebc122-4e2b-404f-82b0-83a9e30fc82c)
+
+ 
 
   
 
