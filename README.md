@@ -68,12 +68,10 @@ Voici le schéma du circuit simulé sur le logiciel LTSpice :
  # 5. Progamme Arduino:
  Notre programme d'Arduino nous permet de mesurer la résistance des deux capteurs (Flex sensor et Capteur en graphine) à partir de la valeur tension mesuré par la composant ADC dans l'Arduino. Il affiche ensuite sur l'écran OLED les valeurs de résistance sélectionnées en tournant l'encodeur rotatoire. 
 
-Dans notre programme, on a également établi la connexion entre la module bluetooth et l'application mobile. C'est à dire qu'on a créé les protocols de communication entre eux. Vous pouvez voir dans le diagramme ci-dessous que le module Bluetooth est utilisé pour recevoir les commandes de l'application mobile et lui envoyer les données demandées. L'Arduino va recevoir ces commandes pour envoyer des données à l'application mobile ou régler la résistance du potentiomètre numérique. 
+Dans notre programme, on a également établi la connexion entre la module bluetooth et l'application mobile. C'est à dire qu'on a créé les protocols de communication entre eux. Vous pouvez voir dans le diagramme ci-dessous que le module Bluetooth est utilisé pour recevoir les commandes de l'application mobile et lui envoyer les données demandées. L'Arduino va recevoir ces commandes pour envoyer des données à l'application mobile ou régler la résistance du potentiomètre numérique afin de changer le gain de l'amplificateur. 
 
 
    ![image](Images/ARDUINO_DIAGRAMME.png)
-
-
 
 
  # 6. KiCad:
@@ -135,8 +133,12 @@ Une fois le PCB fabriqué, nous avons procédé à l'assemblage des composants, 
 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/5677b8c7-3516-46cd-bb89-4c8dd4cb09b1)
 
 
-
  # 7. Application mobile:
+Pour ce projet, nous avons développé une application mobile sur MIT App Inventor qui se connecte au module Bluetooth du capteur. Cette application dispose d'une interface unique permettant d'acquérir les données du capteur en temps réel, de les visualiser sur un graphique dynamique et de enregistrer le graphique dans notre téléphone ainsi que de régler le gain de l'amplificateur.
+
+![image](Images/interface.png)
+
+
 
  
  # 8. Mesures et résultats :
