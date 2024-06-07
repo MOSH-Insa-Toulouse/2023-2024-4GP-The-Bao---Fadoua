@@ -56,6 +56,13 @@ La formule utilisée pour calculer la résistance du capteur de contrainte au gr
 
       𝑅𝑠𝑒𝑛𝑠𝑜𝑟 = (1 +𝑅4/𝑅2) ∗ 𝑅1 ∗ (𝑉𝐶𝐶/𝑉𝐴𝐷𝐶) − 𝑅1 − 𝑅3
     
+
+<h2> Modélisation du capteur:
+     
+</br>
+
+  ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/335cbcf6-7528-4e18-8347-99616e02e7f9)
+
 <h2> Voici le schéma du circuit simulé sur le logiciel LTSpice :
 
 </br>
@@ -66,11 +73,7 @@ La formule utilisée pour calculer la résistance du capteur de contrainte au gr
    ![image](Images/frequence_2.png)
 
    
-<h2> Modélisation du capteur:
-     
-</br>
 
-  ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/335cbcf6-7528-4e18-8347-99616e02e7f9)
 
 
  # 5. Progamme Arduino:
