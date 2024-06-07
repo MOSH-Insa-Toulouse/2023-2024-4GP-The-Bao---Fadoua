@@ -117,8 +117,7 @@ Voici les symboles et empreintes des composants que nous avons créés dans le l
 
 ###  **Potentiomètre digital MCP-41050**
 <div class="column" align="center">
-![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/840b8a52-dd2a-4ea2-82bf-a260eaac5c6f)
-
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/448c4379-c8cb-40c9-b2e4-e84dc5dcac0e)
 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/53cdea29-f270-4932-af2d-90bea9187536)
 </div>
 
