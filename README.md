@@ -116,13 +116,15 @@ Voici les symboles et empreintes des composants que nous avons créés dans le l
 </div>
 
 ###  **Potentiomètre digital MCP-41050**
-<div class="column" align="center">
-![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/f3e0487c-0703-4828-88b8-6ff9dcd19eb8)                 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/53cdea29-f270-4932-af2d-90bea9187536)
-</div>
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/a07fc0a3-149e-4373-b56f-08672ab321df)
+
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/28d0724c-5089-44b8-93cf-78f599997b9e)
 
 Après avoir créé les schémas et les empreintes pour chaque composant, nous avons assemblé le schéma électrique complet du shield Arduino en reliant les broches des composants avec celles de la carte Arduino.
 
    ![image](Images/pcb_schema-1.png)
+   </div>
+
    
 ### Réalisation de la Schématique du PCB et visualisation 3D
 Dans cette étape, nous avons réalisé le routage de notre circuit en intégrant les composants sur le PCB, tout en veillant à limiter les distances entre les composants et leurs pins, conformément aux directives de nos enseignants référents, M. Jérémie Grisolia et Mme Catherine Crouzet. Nous avons respecté des paramètres spécifiques tels que la largeur des pistes, la largeur d'isolation des pistes et les dimensions des trous pour chaque composant, afin d'assurer la conformité de notre conception. Une fois cette phase terminée, nous avons ajouté le plan de masse pour relier les pistes au GND.
