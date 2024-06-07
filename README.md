@@ -288,4 +288,13 @@ Notre expérimentation a consisté à mesurer la déformation des capteurs sous 
 ![image](Images/pic4.png)
 
 
+# 9. Remerciement et contact
+
+Nous souhaiterions remercier Catherine Crouzet qui nous a beaucoup aidé à comprendre et à solutionner nos problèmes tout au long du projet. Nous adressons également nos remerciements à Jérémie Grisolia et Arnaud Biganzoli pour leur aide à la programmation Arduino et Github. 
+
+Pour toutes questions ou informations supplémentaires, vous pouvez nous contacter par mail :
+
+The Bao PHAM: pha@insatoulouse.fr
+Fadoua EL GOURARI : elgourar@insa-toulouse.fr
+
 
