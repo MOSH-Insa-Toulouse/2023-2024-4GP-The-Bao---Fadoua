@@ -48,7 +48,7 @@ Au cœur du circuit se trouve l'amplificateur opérationnel LTC1050, auquel le c
 La précision de nos mesures est assurée par le choix du LTC1050 pour ses faibles valeurs d'offset et de dérive. En complément, nous avons intégré trois étages de filtres au circuit pour optimiser le signal. Un filtre passe-bas à l'entrée (R1,C1) de 16 Hz atténue les hautes fréquences indésirables. Un second filtre passe-bas (R4, C2) de 1,6 Hz élimine le bruit de 50 Hz du réseau électrique. Enfin, un filtre final (R5,C3) de 1,6 kHz traite le bruit de l'ADC pour garantir des mesures précises et stables.
 
 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/d63d17ef-5b5c-456d-8719-cea984a32b3e)
-**Figure 1 : Schéma de la circuit d'amplificateur** 
+
 
 Chaque composant du circuit a été soigneusement sélectionné et dimensionné pour optimiser les performances. Des simulations approfondies sous LTSpice ont validé le fonctionnement du circuit avant la conception du PCB final. Des tests sur une breadboard ont confirmé sa fiabilité en conditions réelles, avec des mesures de résistance et de déformation du capteur réalisées pour évaluer sa précision.
 
@@ -56,12 +56,20 @@ La formule utilisée pour calculer la résistance du capteur de contrainte au gr
 
       𝑅𝑠𝑒𝑛𝑠𝑜𝑟 = (1 +𝑅4/𝑅2) ∗ 𝑅1 ∗ (𝑉𝐶𝐶/𝑉𝐴𝐷𝐶) − 𝑅1 − 𝑅3
     
-Voici le schéma du circuit simulé sur le logiciel LTSpice :
+<h2> Voici le schéma du circuit simulé sur le logiciel LTSpice :
+
+</br>
+
    ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/8d1cc3c1-9032-4561-9eb3-224b6efbe436)
-**Figure 2 : Schéma de la circuit d'amplificateur sur le logiciel LTSpice** 
+
+   ![image](Images/frequence.png)
+   ![image](Images/frequence_2.png)
+
    
-   *  **Modélisation du capteur:**
+<h2> Modélisation du capteur:
      
+</br>
+
   ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/335cbcf6-7528-4e18-8347-99616e02e7f9)
 
 
@@ -81,24 +89,33 @@ Voici les symboles et empreintes des composants que nous avons créés dans le l
 
 ### **Module Bluetooth (HC-05)**
   
+<div class="column" align="center">
+
 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/89913693-dea1-4ed7-bbfa-70d73da63f70)        ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/dd48190b-4917-4319-abb1-444ab65aed4f)
+</div>
 
 ### **Encodeur rotatif (KY-040)**
+<div class="column" align="center">
 
 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/d0237e66-3d19-45ad-91ca-585826361534)           ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/3bbc33d8-727d-44ec-8f51-849d83e2887e)
+</div>
 
 ### **Écran OLED**
-  
+<div class="column" align="center"> 
+
 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/17e42a41-0480-471f-bf98-411bd36ef8a9)             ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/195c0450-dc9f-439f-af8d-70f592ca0cce)
+</div>
 
 ### **Flex Sensor**
-  
+  <div class="column" align="center">
+
  ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/afcf9e46-9d62-4668-85c9-b491dcbb2589)              ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/2fd78a1f-2ad6-4f82-97fd-14e0bbca4493)
+</div>
 
 ###  **Potentiomètre digital MCP-41050**
-
+<div class="column" align="center">
 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/f3e0487c-0703-4828-88b8-6ff9dcd19eb8)                 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/53cdea29-f270-4932-af2d-90bea9187536)
-
+</div>
 
 Après avoir créé les schémas et les empreintes pour chaque composant, nous avons assemblé le schéma électrique complet du shield Arduino en reliant les broches des composants avec celles de la carte Arduino.
 
@@ -125,13 +142,20 @@ Après avoir réalisé le PCB, le téléchargement des modèles de composants su
   
 Dans le cadre de notre projet, nous avons fabriqué un circuit imprimé (PCB) au sein des départements de Génie Électrique et Informatique et de Génie Physique de l'INSA Toulouse. La fabrication a commencé par la modélisation du circuit sur le logiciel KICAD, suivie de l'impression de cette modélisation sur du papier calque. Nous avons ensuite réalisé une insolation UV de notre plaquette d’époxy recouverte d’une fine couche de cuivre (environ 60 µm) pendant une dizaine de minutes, en utilisant le calque comme masque. La résine non exposée aux UV a été retirée avec un révélateur, puis la plaquette a été plongée dans un bain de perchlorure de fer pendant environ 7 à 9 minutes. Cette étape a permis de dissoudre le cuivre non protégé et de révéler les pistes du circuit. Enfin, un rinçage à l'acétone a été effectué pour éliminer les dernières traces de résine, nous permettant ainsi d'obtenir notre PCB conforme à la modélisation initiale. Cette réalisation a été possible grâce à l'aide précieuse de Cathy, assurant la qualité et la précision du produit final.
 
-![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/c12d29cd-80a0-4f57-a8ae-1dae3231f042)
+<div class="column" align="center">
+
+
+![image](Images/pcbb.png)
+
+ </div>
 
 ### Assemblage des composantes :
 Une fois le PCB fabriqué, nous avons procédé à l'assemblage des composants, ce qui implique le perçage du PCB et la soudure des éléments électroniques. Conformément aux spécifications de notre projet, deux tailles de trous ont été prévues dans la conception sur KICAD : des trous de 0,8 mm de diamètre pour les composants tels que les amplificateurs opérationnels (AOP) LTC1050, les résistances et les capacités, et des trous de 1 mm de diamètre pour les broches de connexion de la carte Arduino Uno et les headers des différents modules (OLED, Bluetooth, encodeur rotatif...). À l'aide d'une perceuse électrique, nous avons percé le PCB aux emplacements désignés pour insérer les composants. Ensuite, nous avons soudé les composants en place en utilisant de l'étain pour assurer des connexions électriques solides et fiables. Ce processus d'assemblage a permis d'obtenir un shield opérationnel, prêt à être intégré dans notre système.
 
-![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/5677b8c7-3516-46cd-bb89-4c8dd4cb09b1)
+<div class="column" align="center">
 
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/5677b8c7-3516-46cd-bb89-4c8dd4cb09b1)
+</div>
 
  # 7. Application mobile:
 Pour ce projet, nous avons développé une application mobile sur MIT App Inventor qui se connecte au module Bluetooth du capteur. Cette application dispose d'une interface unique permettant d'acquérir les données du capteur en temps réel, de les visualiser sur un graphique dynamique et de enregistrer le graphique dans notre téléphone ainsi que de régler le gain de l'amplificateur.
@@ -206,9 +230,14 @@ Pour pouvoir récupérer automatiquement des données, nous commandons séquenti
 ![image](Images/app/clock.png)
 
 ## "Step"
+Ce bouton sert à récupérer la valeur de résistance du capteur sélectionné en une seule fois.
+
 ![image](Images/app/step_but.png)
 
 ## "Save graph"
+
+"En appuyant sur ce bouton, nous pouvons enregistrer le graphique dans le dossier "Photos" de notre téléphone au format .png. Pour cela, au début, on sauvegarde le graphe dans une mémoire externe de téléphone et nous le déplacons dans la dossier Photos de téléphone à l'aide d'extention "Taifuntool" 
+
 ![image](Images/app/save_but.png)
 
 ## "Flex sensor" et "Graphite"
@@ -216,15 +245,21 @@ Pour pouvoir récupérer automatiquement des données, nous commandons séquenti
 ![image](Images/app/cap_but.png)
 
 ## "Gain" Slider
+Il utilisé pour régler le gain de l'amplificateur en changant la résistance de potentiomètre numérique. En utilisant ce curseurs, on peut choisir le gain qu'on souhaite. 
+
 ![image](Images/app/gaine_slider.png)
 
 ## "Change gain"
+
 ![image](Images/app/gaine_but.png)
 
 ## "Resistance Potentiometre"
 
+Ce bouton sert à lire la résistance de potentiomètre
+
 ## "File Name" 
 
+Ce composante est utilisé pour nommer la graphe qu'on va sauvegarder
 
  
  # 8. Mesures et résultats :
