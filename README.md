@@ -116,14 +116,21 @@ Voici les symboles et empreintes des composants que nous avons créés dans le l
 </div>
 
 ###  **Potentiomètre digital MCP-41050**
+
+<div class="column" align="center">
+
 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/a07fc0a3-149e-4373-b56f-08672ab321df)
 
 ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/28d0724c-5089-44b8-93cf-78f599997b9e)
+</div>
 
 Après avoir créé les schémas et les empreintes pour chaque composant, nous avons assemblé le schéma électrique complet du shield Arduino en reliant les broches des composants avec celles de la carte Arduino.
 
+<div class="column" align="center">
+
    ![image](Images/pcb_schema-1.png)
-   </div>
+
+</div>
 
    
 ### Réalisation de la Schématique du PCB et visualisation 3D
@@ -141,8 +148,8 @@ Les paramètres spécifiques suivants ont été respectés :
   
 Après avoir réalisé le PCB, le téléchargement des modèles de composants sur le site "grabcad.com", qui n'étaient pas fournis par KiCad, s'est avéré très utile. Cela nous a permis d'obtenir un modèle 3D de notre PCB final. Nous avons ainsi pu vérifier que les positions des composants étaient correctes avant de passer à l'étape de l'impression du circuit.
   
-  ![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/cf1388cb-6d5b-4203-86ee-aea241863773)
-  
+  ![image](Images/3d_model.png)
+
 ### **Fabrication du shield PCB:**
   
 Dans le cadre de notre projet, nous avons fabriqué un circuit imprimé (PCB) au sein des départements de Génie Électrique et Informatique et de Génie Physique de l'INSA Toulouse. La fabrication a commencé par la modélisation du circuit sur le logiciel KICAD, suivie de l'impression de cette modélisation sur du papier calque. Nous avons ensuite réalisé une insolation UV de notre plaquette d’époxy recouverte d’une fine couche de cuivre (environ 60 µm) pendant une dizaine de minutes, en utilisant le calque comme masque. La résine non exposée aux UV a été retirée avec un révélateur, puis la plaquette a été plongée dans un bain de perchlorure de fer pendant environ 7 à 9 minutes. Cette étape a permis de dissoudre le cuivre non protégé et de révéler les pistes du circuit. Enfin, un rinçage à l'acétone a été effectué pour éliminer les dernières traces de résine, nous permettant ainsi d'obtenir notre PCB conforme à la modélisation initiale. Cette réalisation a été possible grâce à l'aide précieuse de Cathy, assurant la qualité et la précision du produit final.
@@ -255,6 +262,8 @@ Il utilisé pour régler le gain de l'amplificateur en changant la résistance d
 ![image](Images/app/gaine_slider.png)
 
 ## "Change gain"
+
+Un fois qu'on appuie sur ce bouton, on envoie un commande à l'Arduino pour changer le gain de l'amplificateur
 
 ![image](Images/app/gaine_but.png)
 
