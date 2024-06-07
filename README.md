@@ -116,10 +116,9 @@ Voici les symboles et empreintes des composants que nous avons créés dans le l
 </div>
 
 ###  **Potentiomètre digital MCP-41050**
-<div class="column" align="center">
-![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/448c4379-c8cb-40c9-b2e4-e84dc5dcac0e)
-![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/53cdea29-f270-4932-af2d-90bea9187536)
-</div>
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/a07fc0a3-149e-4373-b56f-08672ab321df)
+
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/28d0724c-5089-44b8-93cf-78f599997b9e)
 
 Après avoir créé les schémas et les empreintes pour chaque composant, nous avons assemblé le schéma électrique complet du shield Arduino en reliant les broches des composants avec celles de la carte Arduino.
 
