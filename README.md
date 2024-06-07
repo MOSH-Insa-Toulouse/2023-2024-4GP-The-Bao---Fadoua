@@ -253,6 +253,7 @@ Ce bouton sert à récupérer la valeur de résistance du capteur sélectionné 
 ![image](Images/app/save_but.png)
 
 ## "Flex sensor" et "Graphite"
+Ces boutons permettent de choisir le capteur dont on veut afficher la valeur.
 ![image](Images/app/flex_but.png)
 ![image](Images/app/cap_but.png)
 
