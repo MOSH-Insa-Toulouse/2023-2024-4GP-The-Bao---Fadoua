@@ -138,12 +138,106 @@ Pour ce projet, nous avons développé une application mobile sur MIT App Invent
 
 ![image](Images/interface.png)
 
+# Initilisation de programme:
+<h3>Au début, nous avons déclaré les variable globale utilisé dans le programme de l'application
+
+<br />
+
+![image](Images/app/ini1.png)
+![image](Images/app/ini2.png)
+![image](Images/app/ini3.png)
+![image](Images/app/ini4.png)
+![image](Images/app/ini5.png)
+![image](Images/app/ini7.png)
+![image](Images/app/ini8.png)
+![image](Images/app/ini8.png)
+![image](Images/app/ini10.png)
+![image](Images/app/ini11.png)
+
+Initialiser le programme 
+
+![image](Images/app/ini12.png)
+
+# Composantes dans l'interface:
+## "Connect Device" 
+
+Ce bouton est utilisé pour choisir la module bluetooth qu'on veut le connecter
+
+![image](Images/app/connect_buton.png)
+![image](Images/app/connect_button_2.png)
+
+## Statut de connexion bluetooth:
+Étiquette représentant la statut de connexion Bluetooth. 
+
+## "Disconnect" 
+ Ce bouton est utilisé pour déconnecter la bluetooth.
+
+
+![image](Images/app/deconnect_button.png)
+
+## Zone graphique
+ 
+On a utilisé la composante "Canvas" dans MIT pour visualiser le signal
+
+Dans cette zone, le signal de tension mesuré est visualisé en fonction du temps. Chaque fois que le potentiel est mesuré, il est représenté par un point sur le graphique.
+
+Concernant le fond du graphique, il est représenté en échelle linéaire. Chaque petit carré correspond à 500 ms en horizontale et à 0,25 V en verticale.
+
+![image](Images/app/fond.png)
+Figure 3: Le fond de la graphique
+
+## Statut "Overload"
+
+Parce que, l'Arduino ne mesure que jusqu'à 5V. En outre, avec un gain variable d'ampificatuer, la tension mesurée peut facilement devenir saturée. Ce phénomètre peut être observé lorsque le signal est visualisé dans la graphique. Pourtant, si on prendla valeur de résistance en seul fois, la saturation causerait un mal calcul de la résistance de capteur
+
+Dans notre programme d'Arduino, nous avons défini une limitation de tension mesurée pour éviter la sarturation. La limitation de tension est 0 - 4.8V. Pour pouvoir détecter la saturation, une fois que la tension mesurée dépasse cette limite, l'Arduino vas envoyer un message qui contient une chaine des charactères "over". Si la message recus contien ce mot, l'étiquette "Overload" devient rouge; sinon, elle reste verte.
+
+![image](Images/app/overload.png)
+
+## "Start"
+Lancer l'acquitiion de tension continue avec le délai entre deux acquisitions est 100ms
+
+Une fois ce bouton est appuyé, il désactivera les boutons restants pour éviter d'être pressé par erreur et d'affecter l'acquisition. Pour arrêter l'acquisition, appuyez une nouvelle fois sur ce bouton.
+
+![image](Images/app/start_button.png)
+
+Pour pouvoir récupérer automatiquement des données, nous commandons séquentiellement Arduino de nous evoyer les données. Pour cela, nous avons utilisé le composante "Clock"dans MIT
+
+![image](Images/app/clock.png)
+
+## "Step"
+![image](Images/app/step_but.png)
+
+## "Save graph"
+![image](Images/app/save_but.png)
+
+## "Flex sensor" et "Graphite"
+![image](Images/app/flex_but.png)
+![image](Images/app/cap_but.png)
+
+## "Gain" Slider
+![image](Images/app/gaine_slider.png)
+
+## "Change gain"
+![image](Images/app/gaine_but.png)
+
+## "Resistance Potentiometre"
+
+## "File Name" 
 
 
  
  # 8. Mesures et résultats :
  
- Pour étudier les caractéristiques du capteur, nous avons utilisé un banc d'essai composé de sept demi-cylindres disposés de manière séquentielle, du plus petit au plus grand. Le diamètre de chaque demi-cylindre variait de 2 cm à 5 cm, avec un pas de 0,5 cm. Notre objectif était d'analyser la résistance du capteur en fonction de sa déformation induite en le pliant sur ces cylindres. Le degré de déformation a été calculé à l'aide de la formule  
+Pour étudier les caractéristiques du capteur, nous avons utilisé un banc d'essai composé de sept demi-cylindres disposés de manière séquentielle, du plus petit au plus grand. Le diamètre de chaque demi-cylindre variait de 2 cm à 5 cm, avec un pas de 0,5 cm.
+
+<p align="center">
+
+![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/05ebc122-4e2b-404f-82b0-83a9e30fc82c)
+
+</p> 
+
+Notre objectif était d'analyser la résistance du capteur en fonction de sa déformation induite en le pliant sur ces cylindres. Le degré de déformation a été calculé à l'aide de la formule  
  
       𝜀 = 𝑒 / (2r) 
 
@@ -151,10 +245,9 @@ Où **𝜀** représente la déformation, **e** désigne l'épaisseur de la feui
 
 Notre expérimentation a consisté à mesurer la déformation des capteurs sous compression et sous tension afin d'évaluer de manière exhaustive leurs caractéristiques de performance.
  
-![image](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-The-Bao---Fadoua/assets/101217468/05ebc122-4e2b-404f-82b0-83a9e30fc82c)
+![image](Images/Picture2.png)
 
- 
+![image](Images/pic4.png)
 
-  
 
 
